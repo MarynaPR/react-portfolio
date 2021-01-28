@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Nav from './components/Nav';
-// import Main from './components/Main';
+import Main from './components/Main';
 // import Footer from './components/Footer';
 import './App.css';
 
@@ -20,7 +20,7 @@ function App() {
           setCurrentPage={setCurrentPage}
           currentPage={currentPage}></Nav>
       <main>
-        {/* <Main currentPage={currentPage}></Main> */}
+        <Main currentPage={currentPage}></Main>
       </main>
       {/* <Footer></Footer> */}
     </div>
