@@ -1,9 +1,9 @@
 import React from 'react';
 
 import About from '../About';
-import Portfolio from '../Portfolio';
+//import Portfolio from '../Portfolio';
 import Contact from '../Contact';
-import Resume from '../Resume';
+//import Resume from '../Resume';
 import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Main({ currentPage }) {
@@ -12,12 +12,12 @@ function Main({ currentPage }) {
         switch (currentPage.name) {
             case 'about me':
                 return <About />;
-            case 'portfolio':
-                return <Portfolio />;
+            // case 'portfolio':
+            //     return <Portfolio />;
             case 'contact':
                 return <Contact />;
-            case 'resume':
-                return <Resume />;
+            // case 'resume':
+            //     return <Resume />;
             default:
                 return <About />;
         }
