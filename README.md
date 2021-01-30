@@ -1,81 +1,10 @@
-# Getting Started with Create React App
+# react-portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description :page_with_curl:
 
-## Available Scripts
+Welcome to my portfolio created using React. The place to share my projects not only for job opportunities but also to share my work with fellow developers and collaborate on future projects.
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-` npx create-react-app react-portfolio` to create app
-`npm start` to start the server
-Delete: setupTest.js, logo.svg, App.test.js, etc
-
-[react-bootstrap](https://react-bootstrap.github.io/getting-started/introduction)
-
-
+The project is deployed to GitHub Pages.
 
 GIVEN a single-page application portfolio for a web developer
 WHEN I load the portfolio
@@ -102,3 +31,45 @@ WHEN I am presented with the Resume section
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
+
+
+## Screenshots :camera_flash:
+![screenshot](public/images/Screenshot.png)
+
+## Technology Used :label: 
+
+* express
+* node
+* javascript
+* html
+* css
+* react
+
+
+## Resources Used :wrench: 
+
+* [React documentation](https://reactjs.org/)
+* [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* [Create React App](https://github.com/facebook/create-react-app)
+* [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [react-bootstrap](https://react-bootstrap.github.io/getting-started/introduction)
+* [switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
+* [git branch](https://cmatskas.com/delete-git-branch-locally-and-remotely/)
+* [colors](https://coolors.co/)
+* [emoji-cheat-sheet:for readme](https://github.com/ikatyang/emoji-cheat-sheet)
+extension EX7-`rfce` to get a snippet of the code
+
+## Installation :electric_plug:
+
+* run `npm start` at the root of the directory to connect to the server
+
+## Contribution :heavy_plus_sign: 
+
+Contributions, issues and feature requests are welcome. 
+Check out [issues page](https://github.com/MarynaPR/react-portfolio/issues). 
+Give :star: if you found this project useful. 
+
+### Questions :question: 
+Feel free to contact me with any questions via email :e-mail: pryadkamaryna@gmail.com. 
+If you'd like to see my other projects, please visit my :octocat: 
+[GitHub](https://github.com/MarynaPR?tab=repositories)

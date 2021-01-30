@@ -5,9 +5,10 @@ function About() {
             <div>
                 <div>
                     <i></i>
+                    <div class="img-self"></div>
                 </div>
-                <p>About me info here</p>
-                <p> More info here.. </p>
+                <p>about me info here</p>
+                <p> more info here.</p>
             </div>
         </section>
     )
