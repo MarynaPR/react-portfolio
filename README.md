@@ -55,7 +55,9 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 * [react-bootstrap](https://react-bootstrap.github.io/getting-started/introduction)
 * [switch](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch)
 * [git branch](https://cmatskas.com/delete-git-branch-locally-and-remotely/)
-* [colors](https://coolors.co/)
+* [coolors](https://coolors.co/)
+* [colorhunt](https://colorhunt.co/)
+* [react photo gallery](https://www.npmjs.com/package/react-photo-gallery)
 * [emoji-cheat-sheet:for readme](https://github.com/ikatyang/emoji-cheat-sheet)
 extension EX7-`rfce` to get a snippet of the code
 

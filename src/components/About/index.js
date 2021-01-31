@@ -1,16 +1,29 @@
 import React from 'react';
-function About() {
+import coverImg from '../../assets/images/self.jpg';
+import { Container, Card } from 'react-bootstrap';
+
+function About(props) {
     return (
-        <section>
-            <div>
-                <div>
-                    <i></i>
-                    <div class="img-self"></div>
+        <Container>
+            <Card className="card mb-3">
+                <div className ="row g-0">
+                <div className="col-md-4">
+                    <img src={coverImg} alt="self"></img>{props.children}
                 </div>
-                <p>about me info here</p>
-                <p> more info here.</p>
-            </div>
-        </section>
+                <div className="col-md-8">
+                    <div className="card-body">
+                        <p className="card-text">hi, welcome to my portfolio! </p>
+    
+                        <p> I am an entry level web developer from Madison WI. Currently attending 
+
+                            <span> UW coding bootcamp </span> and building awesome things.</p>
+                        <br></br>
+
+                    </div>
+                </div>
+                </div>
+            </Card>
+        </Container>
     )
 }
 export default About;

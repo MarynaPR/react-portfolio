@@ -10,13 +10,13 @@ function Main({ currentPage }) {
 
     const renderPage = () => {
         switch (currentPage.name) {
-            case 'about me':
+            case '.()about me':
                 return <About />;
-            case 'portfolio':
+            case '.()portfolio':
                 return <Portfolio />;
-            case 'contact':
+            case '.()contact':
                 return <Contact />;
-            case 'resume':
+            case '.()resume':
                 return <Resume />;
             default:
                 return <About />;
@@ -25,7 +25,9 @@ function Main({ currentPage }) {
 
     return (
         <section>
-            <h2>{capitalizeFirstLetter(currentPage.name)}</h2>
+            <h1>{capitalizeFirstLetter(currentPage.name)}</h1>
+            <p></p>
+            <br></br>
             <div>{renderPage(currentPage)}</div>
         </section>
     );

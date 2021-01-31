@@ -1,12 +1,18 @@
 import React from 'react';
 import { Card } from 'react-bootstrap';
+import '../../assets/images/resume.jpg'
 
 function Resume() {
+  const resume = {
+      name: "fab fa-github",
+      link: "https://github.com/MarynaPR"
+    }
+  
   return (
     <Card style={{ margin: "10px 20px" }} >
       <div style={{ margin: "20px" }}>
         <p>
-          Check out my <a href="https://www.linkedin.com/">resume</a>
+          Check out my <a href={resume}>resume</a>
         </p>
         <h3>front-end proficiencies</h3>
         <ul className="skills">

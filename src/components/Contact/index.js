@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import { validateEmail } from '../../utils/helpers';
 
 import { Button } from 'react-bootstrap';
@@ -35,7 +34,7 @@ function Contact() {
     };
     return (
         <section>
-            <h3>hello! let's work together.</h3>
+            <h3>let's work together.</h3>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">name:</label>
@@ -57,7 +56,8 @@ function Contact() {
                         </div>
                     )}
                 </div>
-                <Button variant="info" data-testid="button" type="submit">send request</Button>
+                <Button variant="danger" data-testid="button" type="submit">send request</Button>
+
             </form>
         </section >
 

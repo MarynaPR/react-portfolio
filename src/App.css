@@ -6,12 +6,13 @@ main {
 :root {
   --primary: #3f4046;
   --light: #e0d6d6;
-  --dark: #9b9ca3;
+  --dark: rgb(155, 156, 163);
   --darker: #262729;
-  --alpha: rgba(255,255,255,.7);
+  --alpha: rgba(255, 255, 255, 0.527);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
+  color: rgb(218, 214, 214);
 }
 
  * html,
@@ -26,21 +27,33 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  font-family: 'Trebuchet MS', sans-serif;
-}
-
-h2,
-h3,
-h4
-{
-  font-family: 'Tahoma', sans-serif ;
-  font-weight: 500;
-  margin: 5px 0;
-  line-height: 1.25;
+  font-family:  Arial, sans-serif;
 }
 
 h2 {
-  font-size: 2rem;
+  font-family: Arial, sans-serif ;
+  font-weight: 500;
+  margin: 5px 0;
+  line-height: 1.25;
+  letter-spacing: 6px;
+  text-align: center;
+  font-size: 2.3rem;
+}
+
+h3,
+h4
+{
+  font-family: Arial, sans-serif ;
+  font-weight: 500;
+  margin: 5px 0;
+  line-height: 1.25;
+  letter-spacing: 6px;
+  text-align: center;
+}
+
+h1 {
+  letter-spacing: 5.5px;
+  font-weight: 900;
 }
 
 h3 {
@@ -68,21 +81,30 @@ a:hover {
   transition: all .2s ease-in-out;
 }
 
-header {
-  background: var(--dark);
-}
 
-header a {
-  color: var(--light);
-}
-
-img {
+ img {
   max-width: 100%;
+  background: linear-gradient(to left, rgba(214, 193, 193, 0.932) 0, rgb(20, 19, 19) 240px, rgb(10, 7, 7) 290px), no-repeat;
+
 }
+
+.col-md-4 { 
+  padding: 20px 35px; 
+  border-radius: 50%;
+  }
+
 
 span[role='img'] {
   cursor: default;
 }
+
+span {
+  font-size: 20px;
+  font-weight: bold;
+  
+  color: rgb(224, 9, 63);
+  }
+
 
 form {
   width: 40%;
@@ -110,14 +132,15 @@ label {
 
 li {
   list-style: none;
+  letter-spacing: 6px;
+
 }
 
 nav {
-  height: 200px;
+  height: 100px;
   position: relative;
-  font-family: 'Lobster';
-  font-style: 'italic';
-  font-size: 2rem;
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 1.7rem;
   margin: 30px 20px;
 }
 
@@ -127,8 +150,8 @@ nav a:hover {
 
 nav li {
   cursor: pointer;
-  text-shadow: 2px 2px 10px rgba(0,0,0, 0.5);
-  margin: 0 50px;
+  text-shadow: 3px 3px 10px rgba(0,0,0, 0.5);
+  margin: 0 30px;
 }
 
 ul.skills {
@@ -163,13 +186,6 @@ textarea {
   margin-top: 10px;
 }
 
-.container {
-  width: 85%;
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-} 
-
 .flex-row {
   display: flex;
   flex-wrap: wrap;
@@ -187,8 +203,12 @@ textarea {
   justify-content: center;
 }
 
+
+.px-1 {
+  padding-right: var(--spacing-one);
+  padding-left: var(--spacing-one);
+}
 .project {
-  border-radius: 25px;
   position: relative;
   width: 100%;
   max-width: 500px;
@@ -196,43 +216,42 @@ textarea {
   margin: 30px;
 }
 
- .project-bg {
-  
-  position: relative;
+.project-bg {
+  position: relative; 
   width: 100%;
   height: 100%;
+  border-radius: 15px;
 } 
 
 .project-text {
-
-    color: var(--primary);
-    position: absolute;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    padding: 50px;
-    z-index: 900;
-    opacity: 0;
-    transition: all .5s ease-in-out;
+  font-family: 'Trebuchet MS', sans-serif;
+  color: var(--light);
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 40px;
+  z-index: 900;
+  opacity: 0;
+  transition: all .3s ease-in-out;
 }
 
 .project-text:hover {
-
-  background-color: var(--alpha);
+  background-color: var(--darker);
   opacity: 1;
-  border: 10px solid var(--primary);
+  border: 10px solid var(--darker);
+  border-radius: 15px;
+
 }
 
 .project-text h3 {
- 
   font-size: 2.5rem;
 }
 
 .project-text a {
   text-decoration: none;
-  font-weight: bold;
-  color: var(--dark);
+  color: var(--light);
   transition: all .3s ease-in-out;
 }
 
@@ -245,4 +264,9 @@ textarea {
   color: var(--primary);
   cursor: default;
   text-shadow: 3px 3px 15px rgba(255,255,255, .5);
+}
+
+.my-5 {
+  margin-top: var(--spacing-five);
+  margin-bottom: var(--spacing-five);
 }
