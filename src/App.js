@@ -6,8 +6,6 @@ import Footer from './components/Footer';
 import './App.css';
 import { Container } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import colorWhite from './assets/images/pexels.jpg';
-// import colorDark from './assets/images/pexels-dark.jpg';
 
 function App() {
   const [pages] = useState([
@@ -19,9 +17,7 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
-     <div style={{ backgroundColor: new Date().getHours() > 10 ? "rgb(248, 240, 240)" : "white" }}>
-      {/* <div style={{ backgroundImage: new Date().getHours() > 21 ? {colorWhite} :  {colorDark}}}>  */}
-
+    <div style={{ backgroundColor: new Date().getHours() > 20 ? "#55565e" : "white" }}>
       <Container>
         <Header>
           <Nav

@@ -4,7 +4,6 @@ import About from '../About';
 import Portfolio from '../Portfolio';
 import Contact from '../Contact';
 import Resume from '../Resume';
-import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Main({ currentPage }) {
 
@@ -25,10 +24,14 @@ function Main({ currentPage }) {
 
     return (
         <section>
-            <h1>{capitalizeFirstLetter(currentPage.name)}</h1>
+                <h1>{(currentPage.name)}</h1>
             <p></p>
             <br></br>
-            <div>{renderPage(currentPage)}</div>
+
+            <div>
+                {renderPage(currentPage)}
+            </div>
+
         </section>
     );
 }

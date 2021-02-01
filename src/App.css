@@ -1,7 +1,7 @@
 main {
   margin: 0 auto;
-  max-width: 90%;
-  padding: 50px 30px;
+  max-width: 100%;
+  padding: 30px 30px;
 }
 :root {
   --primary: #3f4046;
@@ -12,7 +12,6 @@ main {
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-  color: rgb(218, 214, 214);
 }
 
  * html,
@@ -23,14 +22,15 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-weight: 600;
   line-height: 1.5;
-  font-size: 18px;
-  letter-spacing: 0.1em;
+  font-size: 20px;
+  letter-spacing: 0.2em;
   font-family:  Arial, sans-serif;
+  color: black;
 }
 
 h2 {
+  text-shadow: 1px 1px rgb(143, 137, 137);
   font-family: Arial, sans-serif ;
   font-weight: 500;
   margin: 5px 0;
@@ -49,25 +49,26 @@ h4
   line-height: 1.25;
   letter-spacing: 6px;
   text-align: center;
+  text-shadow: 1px 1px rgb(143, 137, 137);
 }
 
 h1 {
   letter-spacing: 5.5px;
   font-weight: 900;
+  text-shadow: 1px 1px rgb(143, 137, 137);
 }
 
 h3 {
-  font-size: 1.75rem;
+  font-size: 3rem;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 p {
-  font-size: 1.1rem;
-  margin: 20px 0;
-  line-height: 2rem;
+  font-size: 1.3rem;
+  color: rgb(14, 12, 12);
 }
 
 a {
@@ -81,18 +82,9 @@ a:hover {
   transition: all .2s ease-in-out;
 }
 
-
  img {
-  max-width: 100%;
-  background: linear-gradient(to left, rgba(214, 193, 193, 0.932) 0, rgb(20, 19, 19) 240px, rgb(10, 7, 7) 290px), no-repeat;
-
+   max-width: 100%; 
 }
-
-.col-md-4 { 
-  padding: 20px 35px; 
-  border-radius: 50%;
-  }
-
 
 span[role='img'] {
   cursor: default;
@@ -101,13 +93,16 @@ span[role='img'] {
 span {
   font-size: 20px;
   font-weight: bold;
-  
   color: rgb(224, 9, 63);
   }
 
-
 form {
   width: 40%;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 input {
@@ -133,7 +128,6 @@ label {
 li {
   list-style: none;
   letter-spacing: 6px;
-
 }
 
 nav {
@@ -203,7 +197,6 @@ textarea {
   justify-content: center;
 }
 
-
 .px-1 {
   padding-right: var(--spacing-one);
   padding-left: var(--spacing-one);
@@ -238,7 +231,7 @@ textarea {
 }
 
 .project-text:hover {
-  background-color: var(--darker);
+  background-color: rgb(58, 55, 55);
   opacity: 1;
   border: 10px solid var(--darker);
   border-radius: 15px;

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Project from "../Project";
+import { Container } from 'react-bootstrap';
 
 function Portfolio() {
   const [projects] = useState([
@@ -29,23 +30,21 @@ function Portfolio() {
     },
     {
       name: 'budget-tracker',
-      description: 'javaScript/node/express/indexDb/PWA',
+      description: 'node/express/indexDb',
       link: "https://boiling-plains-58611.herokuapp.com/",
       repo: "https://github.com/MarynaPR/budget-tracker"
     },
   ]);
 
   return (
-    <div>
-      <div className="flex-row">
-        {projects.map((project, idx) => (
-          <Project
-            project={project}
-            key={"project" + idx}
-          />
-        ))}
-      </div>
-    </div>
+    <Container>
+          {projects.map((project, idx) => (
+            <Project
+              project={project}
+              key={"project" + idx}
+            />
+          ))}
+    </Container>
   );
 };
 

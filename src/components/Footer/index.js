@@ -22,7 +22,6 @@ function Footer() {
       <div>
         <h2>say hello </h2>
       </div>
-
       <div>
         {icons.map(icon =>
         (
