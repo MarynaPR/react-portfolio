@@ -19,7 +19,6 @@ The project is deployed to GitHub Pages.
 * css
 * react
 
-
 #### Resources Used :wrench: 
 
 * [react documentation](https://reactjs.org/)

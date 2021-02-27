@@ -4,6 +4,13 @@ import { Container } from 'react-bootstrap';
 
 function Portfolio() {
   const [projects] = useState([
+
+    {
+      name: 'woodland-consulting',
+      description: 'react/GraphQL/MongoDB',
+      link: 'https://woodland-consulting.herokuapp.com/',
+      repo: 'https://github.com/SMKrizan/WoodlandConsultingLLC'
+    },
     {
       name: 'word-generator',
       description: 'javascript/jQuery/materialize',
@@ -38,12 +45,12 @@ function Portfolio() {
 
   return (
     <Container>
-          {projects.map((project, idx) => (
-            <Project
-              project={project}
-              key={"project" + idx}
-            />
-          ))}
+      {projects.map((project, idx) => (
+        <Project
+          project={project}
+          key={"project" + idx}
+        />
+      ))}
     </Container>
   );
 };
