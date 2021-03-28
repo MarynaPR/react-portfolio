@@ -7,9 +7,21 @@ function Resume() {
     link: "https://github.com/MarynaPR"
   }
 
+  const proficiencies = [
+    { name: "fab fa-html5" },
+    { name: "fab fa-css3-alt" },
+    { name: "fab fa-sass" },
+    { name: "fab fa-js-square" },
+    { name: "fab fa-react" },
+    { name: "fab fa-bootstrap" },
+    { name: "fab fa-node" },
+    { name: "fab fa-js-square" },
+    { name: "fab fa-github-square" }
+  ]
+
   return (
-    <Card style={{ margin: "10px 20px" }} >
-      <div style={{ margin: "20px" }}>
+    <Card style={{ margin: "10px 20px", color: "#e0d6d6" }}>
+      <div>
         <p>
           Check out my <a href={resume.link}>resume</a>
         </p>
@@ -28,9 +40,21 @@ function Resume() {
           <li>Express</li>
           <li>MySQL, Sequelize</li>
           <li>MongoDB, Mongoose</li>
+          <li>Heroku</li>
         </ul>
+
+        <div className="flex-row">
+          <div>
+            {proficiencies.map(proficiency =>
+            (
+              <p style={{ margin: "30px", padding: "10px", color: "black", size: "10rem", display: "inline", flexWrap: "wrap" }}
+                key={proficiency.name} className={proficiency.name}></p>
+            )
+            )}
+          </div>
+        </div>
       </div>
-    </Card>
+    </Card >
   );
 }
 

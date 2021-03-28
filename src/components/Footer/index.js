@@ -9,7 +9,7 @@ function Footer() {
     },
     {
       name: "fab fa-linkedin",
-      link: "https://www.linkedin.com/in/maryna-p-4aa2641b5/"
+      link: "https://www.linkedin.com/in/maryna-pr/"
     },
     {
       name: "fa fa-envelope",

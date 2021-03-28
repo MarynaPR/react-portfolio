@@ -82,7 +82,7 @@ a:hover {
   transition: all .2s ease-in-out;
 }
 
- img {
+img {
    max-width: 100%; 
 }
 
@@ -183,6 +183,7 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+  size: 4px;
 }
 
 .space-between {
