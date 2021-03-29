@@ -27,6 +27,7 @@ Welcome to my portfolio created using React. This applicaton showcases some feat
 * [coolors](https://coolors.co/)
 * [colorhunt](https://colorhunt.co/)
 * [mdbreact](https://mdbootstrap.com/docs/react/getting-started/quick-start/)
+* [dark mode](https://github.com/donavon/use-dark-mode)
 * [react photo gallery](https://www.npmjs.com/package/react-photo-gallery)
 * [emoji-cheat-sheet:for readme](https://github.com/ikatyang/emoji-cheat-sheet)
 * * [10 Fantastic Portfolio Websites from Silicon Valley Design Leads](https://bestfolios.medium.com/10-fantastic-portfolio-websites-from-silicon-valley-design-leads-2d84b384dba6)
