@@ -18,7 +18,8 @@ function App() {
 
   return (
 
-    <div style={{ backgroundColor: new Date().getHours() > 21 ? "#55565e" : "white" }}>
+    <div id="image" style={{ backgroundColor: new Date().getHours() > 21 ? "#55565e" : "white" }}>
+
       <Container>
         <Header>
           <Nav

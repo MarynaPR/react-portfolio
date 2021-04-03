@@ -33,17 +33,27 @@ body {
 }
 
 body.light {
-  --background-color: var(--white);
+  /* --background-color: var(--white); */
   --text-color: var(--blue);
   --font-weight: 400;
   --image: url("./assets/images/pexels.jpg");
 }
 
 body.dark {
-  --background-color: var(--blue);
+  /* --background-color: var(--blue); */
   --text-color: var(--white);
   --font-weight: 500;
   --image: url("./assets/images/pexels-dark.jpg");
+}
+#image {
+  width: 100%;
+  height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background-image 0.7s ease-in-out;
+  background-image: var(--image);
 }
 
 h2 {
