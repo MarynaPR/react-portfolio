@@ -33,6 +33,10 @@ Welcome to my portfolio created using React. This applicaton showcases some feat
 * * [10 Fantastic Portfolio Websites from Silicon Valley Design Leads](https://bestfolios.medium.com/10-fantastic-portfolio-websites-from-silicon-valley-design-leads-2d84b384dba6)
 * * [1page-portfolio](https://onepagelove.com/inspiration/portfolio)
 * * [10 Awesome Web Developer Portfolios](https://codeburst.io/10-awesome-web-developer-portfolios-d266b32e6154)
+* [Faticon](https://www.flaticon.com/)
+* [DarkMode](https://github.com/alekspopovic/DarkMode)
+* [Shields](https://shields.io/)
+* [SimpleIcons](https://simpleicons.org/)
 *  try `extension EX7`-`rfce` in VS code
 
 ### installation :electric_plug:

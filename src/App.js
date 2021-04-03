@@ -17,19 +17,19 @@ function App() {
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
-    <div>
-      {/* // <div style={{ backgroundColor: new Date().getHours() > 20 ? "#55565e" : "white" }}> */}
-        <Container>
-          <Header>
-            <Nav
-              pages={pages}
-              setCurrentPage={setCurrentPage}
-              currentPage={currentPage}></Nav>
-          </Header>
-          <Main currentPage={currentPage}></Main>
-          <Footer></Footer>
-        </Container>
-      </div >
+
+    <div style={{ backgroundColor: new Date().getHours() > 21 ? "#55565e" : "white" }}>
+      <Container>
+        <Header>
+          <Nav
+            pages={pages}
+            setCurrentPage={setCurrentPage}
+            currentPage={currentPage}></Nav>
+        </Header>
+        <Main currentPage={currentPage}></Main>
+        <Footer></Footer>
+      </Container>
+    </div >
   );
 }
 

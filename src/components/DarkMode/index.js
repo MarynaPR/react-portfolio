@@ -34,11 +34,18 @@ const DarkMode = () => {
     };
 
     return (
-        <button
-            className={theme === "dark" ? clickedClass : ""}
-            id="darkMode"
-            onClick={(e) => switchTheme(e)}
-        ></button>
+        <div className="footer-bottom">
+            <div className="mode">
+                <div>.(
+                <button
+                        className={theme === "dark" ? clickedClass : ""}
+                        id="darkMode"
+                        onClick={(e) => switchTheme(e)}
+                    ></button>
+                    )mode enabled</div>
+
+            </div>
+        </div>
     );
 };
 
