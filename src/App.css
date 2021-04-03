@@ -12,7 +12,7 @@ main {
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-  --grey: "blue";
+  --grey: 55565e;
   --white: "white";
 }
 
@@ -34,7 +34,7 @@ body {
 
 body.light {
   /* --background-color: var(--white); */
-  --text-color: var(--blue);
+  --text-color: var(--grey);
   --font-weight: 400;
   --image: url("./assets/images/pexels.jpg");
 }
@@ -47,7 +47,6 @@ body.dark {
 }
 #image {
   width: 100%;
-  height: 900px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -194,13 +193,10 @@ footer {
 }
 
 .footer-bottom {
-  position: left;
-  width: 20%;
-  height: 200px;
+  width: 20%; 
 }
 
 .mode{
-  /* font-size: 1em; */
   position: relative;
   text-align: center;
   display: flex;
