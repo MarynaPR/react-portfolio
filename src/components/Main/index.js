@@ -23,16 +23,16 @@ function Main({ currentPage }) {
     };
 
     return (
-        <section>
-                <h1>{(currentPage.name)}</h1>
-            <p></p>
+        <div>
+            <h1>{(currentPage.name)}</h1>
+
             <br></br>
 
             <div>
                 {renderPage(currentPage)}
             </div>
 
-        </section>
+        </div>
     );
 }
 export default Main;

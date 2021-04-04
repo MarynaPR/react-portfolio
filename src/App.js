@@ -18,16 +18,17 @@ function App() {
 
   return (
 
-    <div id="image" style={{ backgroundColor: new Date().getHours() > 21 ? "#55565e" : "white" }}>
-
+    <div style={{ backgroundColor: new Date().getHours() > 11 ? "#55565e" : "white" }}>
       <Container>
-        <Header>
-          <Nav
-            pages={pages}
-            setCurrentPage={setCurrentPage}
-            currentPage={currentPage}></Nav>
-        </Header>
-        <Main currentPage={currentPage}></Main>
+        <div id="image">
+          <Header>
+            <Nav
+              pages={pages}
+              setCurrentPage={setCurrentPage}
+              currentPage={currentPage}></Nav>
+          </Header>
+          <Main currentPage={currentPage}></Main>
+        </div>
         <Footer></Footer>
       </Container>
     </div >

@@ -1,24 +1,33 @@
 import React from 'react';
+import { Carousel } from 'react-bootstrap';
+
 import { removeHyphensAndCapitalize } from '../../utils/helpers';
 
 function Project({ project }) {
-    const { name, repo, link, description } = project;
+    const { name, repo, link, description, about } = project;
 
     return (
-                <div className="project" key={name}>
-                    <img
-                        src={require(`../../assets/projects/${name}.jpg`).default}
-                        alt={removeHyphensAndCapitalize(name)}
-                        className="project-bg"
-                    />
-                <div className="project-text">
+        <Carousel>
+            <Carousel.Item className="project" key={name}>
+                <img
+                    src={require(`../../assets/projects/${name}.jpg`).default}
+                    alt={removeHyphensAndCapitalize(name)}
+                    className="project-bg d-block w-100"
+                />
+                <Carousel.Caption className="project-text">
                     <h3>
                         <a href={link}>{removeHyphensAndCapitalize(name)}</a>{' '}
+                        <br></br>
                         <a href={repo}><i className="fab fa-github"></i></a>
                     </h3>
-                    <p>{description}</p>
-                </div>
-                </div>
+                    <span>{description}</span>
+                    <br></br>
+                    <p>{about}</p>
+                </Carousel.Caption>
+
+
+            </Carousel.Item>
+        </Carousel >
     );
 }
 
