@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import Project from "../Project";
+import { Carousel, Container } from 'react-bootstrap';
 
 function Portfolio() {
+
   const [projects] = useState([
 
     {
@@ -49,18 +51,19 @@ function Portfolio() {
   ]);
 
   return (
+    <Container>
+      <Carousel>
+        {projects.map((project, idx) => (
 
-    <div>
-      {projects.map((project, idx) => (
+          <Project
+            project={project}
+            key={"project" + idx}
+          />
 
-        <Project
-          project={project}
-          key={"project" + idx}
-        />
+        ))}
 
-      ))}
-
-    </div>
+      </Carousel>
+    </Container>
   );
 };
 

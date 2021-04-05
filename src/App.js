@@ -9,10 +9,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   const [pages] = useState([
-    { name: ".()about me" },
+    { name: ".()resume" },
+    // { name: ".()about me" },
     { name: ".()portfolio" },
     { name: ".()contact" },
-    { name: ".()resume" }
   ]);
   const [currentPage, setCurrentPage] = useState(pages[0]);
 

@@ -22,15 +22,15 @@ function Footer() {
 
   return (
     <footer className="flex-row px-1">
-   
-        <h2>say hello </h2>
-        <div>
-          {icons.map(icon =>
-            (<a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer"><i className={icon.name}></i></a>)
-          )}
-        </div>
-    
-      <DarkMode></DarkMode>
+      <h2>say hello  </h2>
+      <div>
+        {icons.map(icon =>
+          (<a href={icon.link} key={icon.name} target="_blank" rel="noopener noreferrer"><i className={icon.name}></i></a>)
+        )}
+      </div>
+      <h2 >  <DarkMode></DarkMode> </h2>
+
+
     </footer>
   );
 }

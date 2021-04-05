@@ -35,7 +35,7 @@ const DarkMode = () => {
 
     const renderTooltip = (props) => (
         <Tooltip id="button-tooltip" {...props}>
-            click to change
+            click to change mode
         </Tooltip>
     );
 
@@ -49,19 +49,13 @@ const DarkMode = () => {
             delay={{ show: 250, hide: 400 }}
             overlay={renderTooltip}
         >
-
-
-            <div className="footer-bottom">
-                <div className="mode">
-                    <div>.(
-                <button
-                            className={theme === "dark" ? clickedClass : ""}
-                            id="darkMode"
-                            onClick={(e) => switchTheme(e)}
-                        ></button>
-                    )mode enabled</div>
-
-                </div>
+            <div>.(
+                    <button
+                    className={theme === "dark" ? clickedClass : ""}
+                    id="darkMode"
+                    onClick={(e) => switchTheme(e)}
+                ></button>
+                    )
             </div>
         </OverlayTrigger>
     );

@@ -1,38 +1,31 @@
 import React from 'react';
-
-import About from '../About';
+import Resume from '../Resume';
 import Portfolio from '../Portfolio';
 import Contact from '../Contact';
-import Resume from '../Resume';
+// import About from '../About';
 
 function Main({ currentPage }) {
 
     const renderPage = () => {
         switch (currentPage.name) {
-            case '.()about me':
-                return <About />;
+            case '.()resume':
+                return <Resume />;
             case '.()portfolio':
                 return <Portfolio />;
             case '.()contact':
                 return <Contact />;
-            case '.()resume':
-                return <Resume />;
+            // case '.()about me':
+                // return <About />;
             default:
-                return <About />;
+                return <Resume />;
         }
     };
 
     return (
-        <div>
+        <section>
             <h1>{(currentPage.name)}</h1>
-
-            <br></br>
-
-            <div>
-                {renderPage(currentPage)}
-            </div>
-
-        </div>
+            <div>{renderPage(currentPage)} </div>
+        </section>
     );
 }
 export default Main;

@@ -12,11 +12,10 @@
 #darkMode:hover,
 #darkMode:focus {
   filter: none;
-  /* background-color: none; */
   cursor: pointer;
 }
 
 #darkMode.clicked {
   filter: none !important;
-  background-color: yellow;
+  background-color: white;
 }

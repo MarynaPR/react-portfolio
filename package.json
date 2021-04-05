@@ -11,10 +11,13 @@
     "mdbreact": "^5.0.1",
     "moment": "^2.29.1",
     "react": "^17.0.1",
+    "react-awesome-resume": "^0.1.0",
     "react-bootstrap": "^1.4.3",
     "react-dark-mode-toggle": "^0.2.0",
     "react-dom": "^17.0.1",
+    "react-markdown": "^5.0.3",
     "react-scripts": "4.0.1",
+    "semantic-ui-css": "^2.4.1",
     "use-dark-mode": "^2.3.1",
     "web-vitals": "^0.2.4"
   },

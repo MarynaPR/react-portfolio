@@ -29,6 +29,8 @@ Welcome to my portfolio created using React. This applicaton showcases some feat
 * [mdbreact](https://mdbootstrap.com/docs/react/getting-started/quick-start/)
 * [dark mode](https://github.com/donavon/use-dark-mode)
 * [react photo gallery](https://www.npmjs.com/package/react-photo-gallery)
+* [react-markdown](https://github.com/remarkjs/react-markdown)
+* [react-awesome-resume](https://github.com/jeffwillette/react-awesome-resume)
 * [emoji-cheat-sheet:for readme](https://github.com/ikatyang/emoji-cheat-sheet)
 * * [10 Fantastic Portfolio Websites from Silicon Valley Design Leads](https://bestfolios.medium.com/10-fantastic-portfolio-websites-from-silicon-valley-design-leads-2d84b384dba6)
 * * [1page-portfolio](https://onepagelove.com/inspiration/portfolio)
