@@ -7,10 +7,10 @@ function Project({ project }) {
 
     return (
 
-        <Carousel.Item
-            className="project" key={name}>
+        <Carousel.Item>
+            {/* key={name}> */}
             <img
-                className="d-block w-100 project-bg"
+                className="d-block w-100"
                 src={require(`../../assets/projects/${name}.jpg`).default}
                 alt={removeHyphensAndCapitalize(name)}
             />

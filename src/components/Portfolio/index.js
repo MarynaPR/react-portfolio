@@ -53,6 +53,8 @@ function Portfolio() {
   return (
     <Container>
       <Carousel>
+        {/* <Carousel.Item> */}
+        {/* <Carousel.Caption> */}
         {projects.map((project, idx) => (
 
           <Project
@@ -61,7 +63,8 @@ function Portfolio() {
           />
 
         ))}
-
+        {/* </Carousel.Caption> */}
+        {/* </Carousel.Item> */}
       </Carousel>
     </Container>
   );

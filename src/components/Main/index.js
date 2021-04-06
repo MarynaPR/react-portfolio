@@ -15,7 +15,7 @@ function Main({ currentPage }) {
             case '.()contact':
                 return <Contact />;
             // case '.()about me':
-                // return <About />;
+            // return <About />;
             default:
                 return <Resume />;
         }
@@ -23,7 +23,7 @@ function Main({ currentPage }) {
 
     return (
         <section>
-            <h1>{(currentPage.name)}</h1>
+            <h2>{(currentPage.name)}</h2>
             <div>{renderPage(currentPage)} </div>
         </section>
     );
