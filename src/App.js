@@ -10,7 +10,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   const [pages] = useState([
     { name: ".()resume" },
-    // { name: ".()about me" },
     { name: ".()portfolio" },
     { name: ".()contact" },
   ]);
@@ -19,19 +18,23 @@ function App() {
   return (
 
     <div style={{ backgroundColor: new Date().getHours() > 20 ? "#55565e" : "white" }}>
-      <Container>
-        <div id="image">
-          <Header>
-            <Nav
-              pages={pages}
-              setCurrentPage={setCurrentPage}
-              currentPage={currentPage}></Nav>
-          </Header>
-          <Main currentPage={currentPage}></Main>
-        </div>
-        <Footer></Footer>
-      </Container>
-    </div >
+      <div>
+
+
+        <Container>
+          <div id="image">
+            <Header>
+              <Nav
+                pages={pages}
+                setCurrentPage={setCurrentPage}
+                currentPage={currentPage}></Nav>
+            </Header>
+            <Main currentPage={currentPage}></Main>
+          </div>
+          <Footer></Footer>
+        </Container>
+      </div>
+    </div>
   );
 }
 

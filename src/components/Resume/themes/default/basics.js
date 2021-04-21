@@ -12,7 +12,6 @@ const Basics = ({
   label,
   picture,
   email,
-  phone,
   website,
   summary,
   skills,
@@ -37,7 +36,7 @@ const Basics = ({
           <Header>
             {summary}
           </Header>
-          <Contact phone={phone} email={email} website={website} />
+          <Contact email={email} website={website} />
         </Grid.Column>
       </Grid.Row>
       <Skills skills={skills} />
@@ -49,7 +48,6 @@ Basics.defaultProps = {
   name: undefined,
   label: undefined,
   picture: undefined,
-  phone: undefined,
   website: undefined,
   location: {},
 };

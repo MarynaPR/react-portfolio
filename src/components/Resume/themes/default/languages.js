@@ -14,12 +14,12 @@ const Languages = ({ languages }) => {
                     color={colors.red}
                     key={shortid.generate()}
                     title={
-                        <span style={c(emTwo, bold, color(colors.teal))}>
+                        <span style={c(emTwo, bold, color(colors.grey))}>
                             <Icon name="globe" />{j.name}
                         </span>
                     }
                     subtitle={
-                        <span style={c(emOneTwo, color(colors.grey))}>
+                        <span style={c(emOneTwo, color(colors.black))}>
                             <Icon name="users" />{j.level}
                         </span>
                     }

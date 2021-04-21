@@ -3,7 +3,7 @@ import React from 'react';
 import shortid from 'shortid';
 
 import { ButtonHighlights, CardHighlights } from './generic';
-import { bold, c, color, colors, emOneTwo, emTwo } from './styles';
+import { bold, c, color, colors, emOneThree, emOneTwo, emTwo } from './styles';
 import { educationType } from '../../person';
 
 const proficiencies = [
@@ -34,13 +34,13 @@ const Education = ({ education }) => {
                     key={shortid.generate()}
                     color={colors.grey}
                     title={
-                        <span style={c(emTwo, bold, color(colors.grey))}>
+                        <span style={c(emOneThree, bold, color(colors.grey))}>
                             <Icon name="university" />
                             {`${j.institution}: ${j.area}`}
                         </span>
                     }
                     subtitle={
-                        <div style={c(emOneTwo, color(colors.grey), bold)}>
+                        <div style={c(emOneTwo, color(colors.black), bold)}>
                             <Grid columns="equal">
                                 <Grid.Column textAlign="left">
                                     <Icon name="certificate" />
@@ -57,7 +57,7 @@ const Education = ({ education }) => {
                         <ButtonHighlights
                             icon="graduation"
                             highlights={j.courses}
-                            color="grey"
+                            color="black"
                         />
                     }
                 />

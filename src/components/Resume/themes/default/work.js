@@ -21,16 +21,16 @@ const Work = ({ work }) => {
         <div>
             {work.map(job => (
                 <CardHighlights
-                    color={colors.red}
+                    color={colors.grey}
                     key={shortid.generate()}
                     title={
-                        <span style={c(emTwo, bold, faded(colors.red))}>
+                        <span style={c(emTwo, bold, faded(colors.grey))}>
                             <Icon name="building outline" margin="10" />
                             {job.company}
                         </span>
                     }
                     subtitle={
-                        <span style={c(emOneHalf, color(colors.grey))}>
+                        <span style={c(emOneHalf, color(colors.black))}>
                             <Icon name="user outline" />{job.position}
                             <Icon name="calendar" style={{ marginLeft: '50px' }} />
                             {`( ${job.startDate} - ${job.endDate} )`}
@@ -44,7 +44,7 @@ const Work = ({ work }) => {
                     highlights={
                         <ButtonHighlights
                             highlights={job.highlights}
-                            color="grey"
+                            color="black"
                         />
                     }
                 />

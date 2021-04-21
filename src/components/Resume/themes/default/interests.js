@@ -5,7 +5,7 @@ import ReactMarkdown from 'react-markdown';
 import shortid from 'shortid';
 
 import { CardHighlights } from './generic';
-import { bold, c, color, colors, emOneHalf, emTwo } from './styles';
+import { bold, c, color, colors, emOneHalf, emOneThree } from './styles';
 import { interestsType } from '../../person';
 
 const Interests = ({ interests }) => {
@@ -13,15 +13,15 @@ const Interests = ({ interests }) => {
         <div>
             {interests.map(j => (
                 <CardHighlights
-                    color={colors.green}
+                    color={colors.grey}
                     key={shortid.generate()}
                     title={
-                        <span style={c(emTwo, bold, color(colors.green))}>
+                        <span style={c(emOneThree, bold, color(colors.grey))}>
                             <Icon name="user circle outline" />{j.name}
                         </span>
                     }
                     text={
-                        <InterestKeywords keywords={j.keywords} hColor={colors.green} />
+                        <InterestKeywords keywords={j.keywords} hColor={colors.black} />
                     }
                 />
             ))}

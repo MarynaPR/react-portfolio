@@ -7,7 +7,9 @@
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
   --spacing-five: calc(2.5rem);
-  --black: "black";
+  --background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%);
+  /* --white: "white;" */
+
 
 }
 
@@ -33,14 +35,14 @@ body.light {
   --background-color: var(--white);
   --text-color: var(--black);
   --font-weight: 400;
-  /* --image: url("./assets/images/white-bg.jpg"); */
+  --image: url("./assets/images/white.png");
 }
 
 body.dark {
-  --background-color: var(--black);
+  --background-color: var(--background);
   --text-color: var(--white);
   --font-weight: 500;
-  --image: url("./assets/images/black.jpg");
+  --image: url("./assets/images/dark.png");
 }
 #image {
   width: 100%;

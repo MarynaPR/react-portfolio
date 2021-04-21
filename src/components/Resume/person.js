@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 export const person = {
     basics: {
         name: 'hi! Welcome to my portfolio!',
-        picture: '/react-portfolio/static/media/self.jpg',
+        picture: '../src/assets/images/self.jpg',
         email: 'pryadkamaryna@gmail.com',
         phone: '000-000-0000',
         website: 'https://marynapr.github.io/react-portfolio/',

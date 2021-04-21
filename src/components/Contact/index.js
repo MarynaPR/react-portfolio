@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail } from '../../utils/helpers';
-import { Button, Container } from 'react-bootstrap';
+import { Button, Form, Container } from 'react-bootstrap';
 function Contact() {
 
     const [formState, setFormState] = useState({ name: '', email: '', message: '' })
@@ -35,7 +35,7 @@ function Contact() {
         <Container fluid="md">
             <br></br>
             <h4>let's work together</h4>
-            <form id="contact-form" onSubmit={handleSubmit}>
+            <Form id="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">name:</label>
                     <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
@@ -54,7 +54,7 @@ function Contact() {
                     )}
                 </div>
                 <Button variant="danger" data-testid="button" type="submit">send request</Button>
-            </form>
+            </Form>
         </Container>
 
     )
