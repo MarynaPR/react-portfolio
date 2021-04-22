@@ -1,9 +1,9 @@
-import { Container, Icon, Image, Menu, Responsive, Sidebar } from 'semantic-ui-react';
+import { Container, Icon, Menu, Responsive, Sidebar } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import React from 'react';
 import shortid from 'shortid';
 import { resumeType } from '../../person';
-import Basics from './basics';
+import About from './about';
 import Education from './education';
 import Interests from './interests';
 import Languages from './languages';
@@ -23,13 +23,14 @@ const ResumeMenuItem = ({
   if (element) {
     return (
       <Menu.Item
+        // name="avatar"
+        name='about'
         header
-        name="avatar"
         onClick={() => {
           onClick(title);
         }}
         active={active}
-        content={element}
+      // content={element}
       />
     );
   }
@@ -67,13 +68,13 @@ export default class Default extends React.Component {
   constructor(props) {
     super(props);
 
-    this.basicsWithSkills = Object.assign({}, this.props.jsonResume.basics, {
+    this.aboutWithSkills = Object.assign({}, this.props.jsonResume.about, {
       skills: this.props.jsonResume.skills,
     });
 
     this.r = this.props.jsonResume;
 
-    this.state = { activePage: 'avatar', visible: false };
+    this.state = { activePage: 'about', visible: false };
   }
 
   toggleVisible = () => {
@@ -99,7 +100,7 @@ export default class Default extends React.Component {
 
   render() {
     const content = {
-      avatar: <Basics {...this.basicsWithSkills} />,
+      about: <About {...this.aboutWithSkills} />,
       work: <Work work={this.r.work} />,
       education: <Education education={this.r.education} />,
       languages: <Languages languages={this.r.languages} />,
@@ -108,18 +109,18 @@ export default class Default extends React.Component {
 
     const MenuItems = [
       {
-        title: 'avatar',
-        element: (
-          <Image
-            src={this.r.basics.picture}
-            shape="circular"
-            size="mini"
-            centered
-          />
-        ),
+        title: 'about',
+        // element: (
+        //   <Image
+        //     src={this.r.about.picture}
+        //     shape="circular"
+        //     size="mini"
+        //     centered
+        //   />
+        // ),
         show: true,
         onClick: this.handleMenuClick,
-        active: this.state.activePage === 'avatar',
+        active: this.state.activePage === 'about',
       },
       {
         title: 'work',
@@ -159,7 +160,7 @@ export default class Default extends React.Component {
           {MenuItems.map(m => (
             <ResumeMenuItem
               title={m.title}
-              element={m.element}
+              // element={m.element}
               show={m.show}
               onClick={m.onClick}
               active={m.active}
@@ -194,7 +195,7 @@ export default class Default extends React.Component {
               {MenuItems.map(m => (
                 <ResumeMenuItem
                   title={m.title}
-                  element={m.element}
+                  // element={m.element}
                   show={m.show}
                   onClick={m.onClick}
                   active={m.active}
@@ -218,7 +219,7 @@ export default class Default extends React.Component {
             {MenuItems.map(m => (
               <ResumeMenuItem
                 title={m.title}
-                element={m.element}
+                // element={m.element}
                 show={m.show}
                 onClick={m.onClick}
                 active={m.active}

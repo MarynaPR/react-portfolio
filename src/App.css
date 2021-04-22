@@ -65,6 +65,17 @@ h2 {
   font-size: 2.3rem;
 }
 
+.h2-header.row {
+  padding: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* div.h2-header.row {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+} */
 h3,
 h4
 {
@@ -127,21 +138,16 @@ form {
   padding: 25px 10px;
   margin-left: auto;
   margin-right: auto;
- 
 }
 
 section {
   padding: 10px;
 }
 
-header {
+ header {
   padding: 25px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  
-}
+} 
+
 input {
   margin: 10px 0;
   font-size: 1rem;
@@ -226,10 +232,8 @@ textarea {
 }
 
 .flex-row {
-  display: flex; 
+ display: flex; 
  flex-wrap: wrap; 
-  /* size: 2px; */
-  /* text-align: justify; */
 }
 
 .space-between {
