@@ -79,42 +79,33 @@ CardHighlights.propTypes = {
     highlights: PropTypes.element,
 };
 
-export const Contact = ({ phone, email, website }) => {
+export const Contact = ({ email, website }) => {
     return (
         <div>
-            {phone &&
-                <Button
-                    style={{ margin: '10px' }}
-                    size="tiny"
-                    icon="phone"
-                    content={phone}
-                />}
             {email &&
                 <ExtLink
                     style={{ margin: '10px' }}
                     href={`mailto:${email}`}
-                    text={<Button size="tiny" icon="mail-outline" content={email} />}
-                    color={colors.grey}
+                    text={<Button size="tiny" icon="mail" />}
+                    color={colors.black}
                 />}
             {website &&
                 <ExtLink
                     style={{ margin: '10px' }}
                     href={website}
-                    text={<Button size="tiny" icon="computer" content={website} />}
-                    color={colors.grey}
+                    text={<Button size="tiny" icon="computer" />}
+                    color={colors.black}
                 />}
         </div>
     );
 };
 
 Contact.defaultProps = {
-    phone: undefined,
     email: undefined,
     website: undefined,
 };
 
 Contact.propTypes = {
-    phone: PropTypes.string,
     email: PropTypes.string,
     website: PropTypes.string,
 };

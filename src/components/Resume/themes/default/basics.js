@@ -22,9 +22,9 @@ const Basics = ({
         <Grid.Column width={4}>
           <Image
             src={picture}
-            shape="circular"
+            // shape="circular"
             centered
-            fluid
+            // fluid
             style={{ border: '10px solid rgba(0,0,0,.05)' }}
           />
         </Grid.Column>

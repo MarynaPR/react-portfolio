@@ -136,6 +136,11 @@ section {
 
 header {
   padding: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  
 }
 input {
   margin: 10px 0;

@@ -1,12 +1,11 @@
 import PropTypes from 'prop-types';
-// import coverImg from '../../assets/images/self.jpg';
+import coverImg from '../../assets/images/self.jpg';
 
 export const person = {
     basics: {
         name: 'hi! Welcome to my portfolio!',
-        picture: '../src/assets/images/self.jpg',
+        picture: '{coverImg }',
         email: 'pryadkamaryna@gmail.com',
-        phone: '000-000-0000',
         website: 'https://marynapr.github.io/react-portfolio/',
         summary: 'I am a full stack web developer leveraging entrepreneurial background to build more intuitive user experience on the web. My  background in customer service is a definite asset when it comes to user research and my drive to problem-solve is an asset in writing code. Known as an innovative critical thinker, I am passionate about sustainability in all aspects of life, with a focus on meeting the current needs of a user without compromising the ability of those needs to be met in the future. Eager to deliver value and result working on creating solutions with a focus of keeping the content clear and actionable using JavaScript, CSS, MongoDB, React and responsive web design. I look forward to collaborating and working with others to develop meaningful applications that deliver diversity and user friendly experience.',
         location: {
@@ -102,15 +101,15 @@ export const person = {
     languages: [
         {
             name: 'Russian/Ukrainian',
-            level: 'Native Speaker',
+            level: 'native speaker',
         },
         {
             name: 'English',
-            level: 'Second Language',
+            level: 'second language',
         },
         {
             name: 'Spanish',
-            level: 'Intermediate',
+            level: 'intermediate',
         },
     ],
     interests: [
@@ -135,7 +134,6 @@ export const basicsType = PropTypes.shape({
     name: PropTypes.string,
     picture: PropTypes.string,
     email: PropTypes.string,
-    phone: PropTypes.string,
     website: PropTypes.string,
     summary: PropTypes.string,
 }).isRequired;

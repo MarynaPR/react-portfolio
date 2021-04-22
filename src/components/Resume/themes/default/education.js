@@ -3,7 +3,7 @@ import React from 'react';
 import shortid from 'shortid';
 
 import { ButtonHighlights, CardHighlights } from './generic';
-import { bold, c, color, colors, emOneThree, emOneTwo, emTwo } from './styles';
+import { bold, c, color, colors, emOneThree, emOneTwo} from './styles';
 import { educationType } from '../../person';
 
 const proficiencies = [

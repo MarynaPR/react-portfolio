@@ -1,15 +1,7 @@
-import {
-  Container,
-  Icon,
-  Image,
-  Menu,
-  Responsive,
-  Sidebar,
-} from 'semantic-ui-react';
+import { Container, Icon, Image, Menu, Responsive, Sidebar } from 'semantic-ui-react';
 import PropTypes from 'prop-types';
 import React from 'react';
 import shortid from 'shortid';
-
 import { resumeType } from '../../person';
 import Basics from './basics';
 import Education from './education';
