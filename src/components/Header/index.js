@@ -12,8 +12,6 @@ function Header(props) {
                     <Image src={coverImg} roundedCircle />
                 </Col>
                 <h2>maryna pryadka</h2>
-
-
             </Row>
             {props.children}
         </header>

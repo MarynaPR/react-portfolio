@@ -2,10 +2,10 @@ import PropTypes from 'prop-types';
 
 export const person = {
     about: {
-        name: 'hi! Welcome to my portfolio!',
+        name:    'hi  *  welcome to my portfolio  *  ',
         email: 'pryadkamaryna@gmail.com',
         website: 'https://marynapr.github.io/react-portfolio/',
-        summary: 'I am a full stack web developer leveraging entrepreneurial background to build more intuitive user experience on the web. My  background in customer service is a definite asset when it comes to user research and my drive to problem-solve is an asset in writing code. Known as an innovative critical thinker, I am passionate about sustainability in all aspects of life, with a focus on meeting the current needs of a user without compromising the ability of those needs to be met in the future. Eager to deliver value and result working on creating solutions with a focus of keeping the content clear and actionable using JavaScript, CSS, MongoDB, React and responsive web design. I look forward to collaborating and working with others to develop meaningful applications that deliver diversity and user friendly experience.',
+        summary: ' * born in cold Siberian region  *  reside in slightly warmer Midwest  *  full stack web developer  *  passionate about sustainability and diversity  * looking to bring my attention to detail, analytical and technical skills to your organization to grow and become avaluable asset  *  quipped with skills to adapt quickly and find creative and elegant solutions to problems *   '
     },
     work: [
         {
@@ -55,7 +55,7 @@ export const person = {
             name: 'learning',
             level: '95',
             keywords: [
-                'Learn something new every day',
+                ' *  learn something new every day *  ',
             ],
         },
         {
@@ -67,27 +67,27 @@ export const person = {
             name: 'recyclopath',
             level: '75',
             keywords: [
-                "For the service of a cause: experienced at reminding everyone to recycle",
+                "  * for the service of a cause -  experienced at reminding everyone to recycle  *  ",
             ],
         },
         {
             name: 'style',
             level: '70',
             keywords: [
-                "Yves Saint Laurent: Fashions fade, style is eternal."
+                "  *  yves saint laurent: fashions fade, style is eternal  *  "
             ],
         },
         {
             name: 'mediation',
             level: '46',
             keywords: [
-                'coding bootcamp award: most likely to prevent others from throwing their laptop out a window',
+                '  *  coding bootcamp award: most likely to prevent others from throwing their laptop out a window  *  ',
             ],
         },
         {
             name: 'making mistakes',
             level: '30',
-            keywords: ['start date - present'],
+            keywords: [' *  start date - present  * '],
         }
     ],
     languages: [
@@ -108,14 +108,16 @@ export const person = {
         {
             name: 'Sustainability Management',
             keywords: [
-                'Currently attending UW masters program',
+                ' : completing DYI projects',
+                ' : working on neighborhood app for safe exchange of household items',
+                ' : currently attending UW masters program in Sustainability Management',
             ],
         },
         {
             name: 'Spanish Culture',
             keywords: [
-                'Costa Rica: pura vida!',
-                'Costa Rica is around the same size as Lake Michigan',
+                ' :Costa Rica - pura vida!',
+                ' :is around the same size as Lake Michigan',
             ],
         },
     ],

@@ -19,15 +19,14 @@ function App() {
 
     <div style={{ backgroundColor: new Date().getHours() > 20 ? "#55565e" : "white" }}>
       <div>
-
-
         <Container>
           <div id="image">
             <Header>
               <Nav
                 pages={pages}
                 setCurrentPage={setCurrentPage}
-                currentPage={currentPage}></Nav>
+                currentPage={currentPage}>
+              </Nav>
             </Header>
             <Main currentPage={currentPage}></Main>
           </div>
