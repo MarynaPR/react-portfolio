@@ -2,10 +2,10 @@ import PropTypes from 'prop-types';
 
 export const person = {
     about: {
-        name:    'hi  *  welcome to my portfolio  *  ',
+        name: 'hi  *  welcome to my portfolio  *  ',
         email: 'pryadkamaryna@gmail.com',
         website: 'https://marynapr.github.io/react-portfolio/',
-        summary: ' * born in cold Siberian region  *  reside in slightly warmer Midwest  *  full stack web developer  *  passionate about sustainability and diversity  * looking to bring my attention to detail, analytical and technical skills to your organization to grow and become avaluable asset  *  quipped with skills to adapt quickly and find creative and elegant solutions to problems *   '
+        summary: ' * born in cold Siberian region  *  reside in slightly warmer Midwest  *  full stack web developer  *  passionate about sustainability and diversity  * looking to bring my attention to detail, analytical and technical skills to your organization to grow and become a avaluable asset  *  equipped with skills to adapt quickly and find creative and elegant solutions to problems *   '
     },
     work: [
         {
@@ -14,7 +14,7 @@ export const person = {
             startDate: '2018-01-01',
             endDate: 'present',
             summary: 'Launched and co-developed a zero-waste skin care brand with an emphasis on plant-based ingredients and biodegradable packaging. Key Accomplishments: ',
-            highlights: [' ● Pioneered the implementation and research of sustainable strategies by prioritizing partnering with l ocal farms and other businesses to promote the growth of communities', ' ● Established emerging financial strategies, resource allocation, and production methods to arrange the financial flow and budget from existing business to ensure loan-free start up', '● Demonstrate strong businessacumenby identifying priorities and effectively executing projects, accordingly, monitoring cost effectiveness of operations by initiating effective sustainable practices and reducing waste and operational cost annually by 15 percent'],
+            // highlights: [' ● Pioneered the implementation and research of sustainable strategies by prioritizing partnering with l ocal farms and other businesses to promote the growth of communities', ' ● Established emerging financial strategies, resource allocation, and production methods to arrange the financial flow and budget from existing business to ensure loan-free start up', '● Demonstrate strong businessacumenby identifying priorities and effectively executing projects, accordingly, monitoring cost effectiveness of operations by initiating effective sustainable practices and reducing waste and operational cost annually by 15 percent'],
         },
         {
             company: 'Velvet Waxing Studio',
@@ -22,16 +22,16 @@ export const person = {
             startDate: '2011-01-01',
             endDate: 'present',
             summary: 'Participated in all facets of business development, including the launching, planning, and strategizing of a business model of the premier waxing studio in Madison,WI. Key Accomplishments:',
-            highlights: ['● Manage customer relationship to i nfluence and i mprove customer service rating', '● Use creativity and problem-solving skills to monitor financial activity, set sale projections, identify risks, make conclusions based on profits, and find resourceful ways to maintain and increase the company’s budget'],
+            // highlights: ['● Manage customer relationship to i nfluence and i mprove customer service rating', '● Use creativity and problem-solving skills to monitor financial activity, set sale projections, identify risks, make conclusions based on profits, and find resourceful ways to maintain and increase the company’s budget'],
         },
     ],
     education: [
         {
-            institution: 'University of Wisconsin Extended Campus',
+            institution: 'University of Wisconsin',
             area: 'Software Development',
-            studyType: 'Certificate, Full Stack Web Development',
-            startDate: '2020-08',
-            endDate: '2021-03',
+            studyType: 'certificate, full stack web development',
+            startDate: '2020',
+            endDate: '2021',
             courses: [
                 'Languages: H TML5, CSS3, JavaScript, j Query, Express.js, React.js, Node.js, NoSQL',
                 'Applications: GitHub, MongoDB, MySQL, MERN Stack, Heroku',
@@ -41,12 +41,20 @@ export const person = {
         {
             institution: 'Kharkiv Institute of Business and Management, Ukraine',
             area: 'Finance',
-            studyType: 'Bachelor of Finance and Credit',
-            startDate: '2012-08',
-            endDate: '2016-05',
+            studyType: 'bachelor of finance and credit',
+            startDate: '2012',
+            endDate: '2016',
             courses: [
                 'Finance - Credit',
             ],
+
+        },
+        {
+            institution: 'University of Wisconsin',
+            area: 'masters in sustainable management',
+            studyType: 'masters in sustainable management',
+            startDate: '2021',
+            endDate: '2024',
         },
 
     ],
@@ -106,18 +114,18 @@ export const person = {
     ],
     interests: [
         {
-            name: 'Sustainability Management',
+            name: 'sustainable living',
             keywords: [
-                ' : completing DYI projects',
-                ' : working on neighborhood app for safe exchange of household items',
-                ' : currently attending UW masters program in Sustainability Management',
+                ' : DYI projects - anything that can be reduced, reused, repaired, rebuilt, refurbished, refinished, resold, recycled, or composted',
+                ' : gardening - community garden, backyard garden, flowers..',
+                ' : farmers market',
             ],
         },
         {
-            name: 'Spanish Culture',
+            name: 'spanish culture',
             keywords: [
-                ' :Costa Rica - pura vida!',
-                ' :is around the same size as Lake Michigan',
+                ' :eavesdrop all the time',
+                ' :... only because I find Spanish very positive, happy, rich and exuberant language',
             ],
         },
     ],

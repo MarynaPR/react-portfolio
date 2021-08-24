@@ -17,7 +17,7 @@ function App() {
 
   return (
 
-    <div style={{ backgroundColor: new Date().getHours() > 20 ? "#55565e" : "white" }}>
+    <div style={{ backgroundColor: new Date().getHours() > 17 ? "#55565e" : "white" }}>
       <div>
         <Container>
           <div id="image">

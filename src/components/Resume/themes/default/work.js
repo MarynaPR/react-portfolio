@@ -41,12 +41,12 @@ const Work = ({ work }) => {
                             <ReactMarkdown source={job.summary} />
                         </span>
                     }
-                    highlights={
-                        <ButtonHighlights
-                            highlights={job.highlights}
-                            color="black"
-                        />
-                    }
+                    // highlights={
+                    //     <ButtonHighlights
+                    //         highlights={job.highlights}
+                    //         color="black"
+                        // />
+                    // }
                 />
             ))}
         </div>

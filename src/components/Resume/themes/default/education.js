@@ -53,13 +53,13 @@ const Education = ({ education }) => {
                             </Grid>
                         </div>
                     }
-                    highlights={
-                        <ButtonHighlights
-                            icon="graduation"
-                            highlights={j.courses}
-                            color="black"
-                        />
-                    }
+                    // highlights={
+                    //     <ButtonHighlights
+                    //         icon="graduation"
+                    //         highlights={j.courses}
+                    //         color="black"
+                    //     />
+                    // }
                 />
             ))}
 

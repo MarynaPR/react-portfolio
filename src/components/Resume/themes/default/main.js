@@ -43,6 +43,8 @@ const ResumeMenuItem = ({
         onClick(title);
       }}
       active={active}
+      style={{ textTransform: "lowercase" }}
+
     />
   );
 };
@@ -176,7 +178,7 @@ export default class Default extends React.Component {
 
     const Mobile = (
       <div>
-        <Menu fixed="top" borderless size="massive">
+        <Menu fixed="top" borderless size="massive" >
           <Menu.Item>
             <Icon name="bars" onClick={this.toggleVisible} />
           </Menu.Item>
