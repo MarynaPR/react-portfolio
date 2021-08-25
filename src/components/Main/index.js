@@ -2,7 +2,7 @@ import React from 'react';
 import Resume from '../Resume';
 import Portfolio from '../Portfolio';
 import Contact from '../Contact';
-// import About from '../About';
+import Blog from '../Blog';
 
 function Main({ currentPage }) {
 
@@ -12,10 +12,10 @@ function Main({ currentPage }) {
                 return <Resume />;
             case '.()portfolio':
                 return <Portfolio />;
+            case '.()blog':
+                return <Blog />;
             case '.()contact':
                 return <Contact />;
-            // case '.()about me':
-            // return <About />;
             default:
                 return <Resume />;
         }
@@ -23,8 +23,8 @@ function Main({ currentPage }) {
 
     return (
         <section>
-            <h2>{(currentPage.name)}</h2>
-            <div>{renderPage(currentPage)} </div>
+            <h2 style={{padding: "40px", borderBottomStyle: "solid"}}>{(currentPage.name)}</h2>
+            <div style={{ padding: "40px", borderBottomStyle: "solid" }}>{renderPage(currentPage)} </div>
         </section>
     );
 }

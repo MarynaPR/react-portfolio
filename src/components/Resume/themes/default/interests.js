@@ -16,12 +16,12 @@ const Interests = ({ interests }) => {
                     color={colors.grey}
                     key={shortid.generate()}
                     title={
-                        <span style={c(emOneThree, bold, color(colors.grey))}>
+                        <span style={c(emOneThree, bold, color(colors.red))}>
                             <Icon name="user circle outline" />{j.name}
                         </span>
                     }
                     text={
-                        <InterestKeywords keywords={j.keywords} hColor={colors.black} />
+                        <InterestKeywords keywords={j.keywords} color={colors.black} />
                     }
                 />
             ))}
@@ -45,7 +45,8 @@ const InterestKeywords = ({ keywords, hColor }) => {
                     <Card.Content
                         header={
                             <span style={c(emOneHalf, color(hColor))}>
-                                <Icon name="lab" />{k.split(':')[0]}
+                                <Icon name="lab" />
+                                {k.split(':')[0]}
                             </span>
                         }
                     />

@@ -24,14 +24,12 @@ body {
   color: var(--text-color);
   transition: background 0.2s ease-in-out, color 0.6s ease-in-out;
 }
-
 body.light {
   --background-color: var(--white);
   --text-color: var(--black);
   --font-weight: 400;
   --image: url("./assets/images/white.png");
 }
-
 body.dark {
   --background-color: var(--background);
   --text-color: var(--white);
@@ -47,7 +45,6 @@ body.dark {
   transition: background-image 0.7s ease-in-out;
   background-image: var(--image);
 }
-
 h2 {
   text-shadow: 1px 1px rgb(143, 137, 137);
   font-family: Arial, sans-serif ;
@@ -58,14 +55,12 @@ h2 {
   text-align: center;
   font-size: 2.3rem;
 }
-
 .h2-header.row {
   padding: 25px;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
-
 h3,
 h4
 {
@@ -77,42 +72,34 @@ h4
   text-align: center;
   text-shadow: 1px 1px rgb(143, 137, 137);
 }
-
 h3 {
   font-size: 3rem;
 }
-
 h4 {
   font-size: 2rem;
 }
-
 a {
   color: var(--light);
   text-decoration: none;
   opacity: .5;
 }
-
 a:hover {
   opacity: 1;
   transition: all .2s ease-in-out;
 }
-
 img {
   max-width: 100%; 
 }
-
 span[role='img'] {
   cursor: default;
 }
-
 span {
   font-size: 20px;
   font-weight: bold;
   color: rgb(224, 9, 63);
 }
-
 form {
-  width: 50%;
+  width: 60%;
 }
 
 /* .container {
@@ -121,14 +108,13 @@ form {
   margin-right: auto;
 } */
 
-section {
-  padding: 10px;
-}
+/* section {
+  padding: 5px;
+} */
 
 header {
   padding: 25px;
 } 
-
 input {
   margin: 10px 0;
   font-size: 1rem;
@@ -139,50 +125,39 @@ input {
   border-radius: 3px;
   transition: box-shadow 0.2s;
 }
-
 input:focus {
   border: 1px solid var(--primary);
   box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
 }
-
 label {
   margin-right: 10px;
 }
-
 li {
   list-style: none;
   letter-spacing: 6px;
 }
-
 nav {
   height: 100px;
   position: relative;
   font-family: "Raleway", Arial, sans-serif;
   font-size: 1.7rem;
-  margin: 30px 20px;
+  /* margin: 20px 10px; */
   text-align: center;
 }
-
 nav a:hover {
   text-decoration: none;
 }
-
 nav li {
   cursor: pointer;
   text-shadow: 3px 3px 10px rgba(0,0,0, 0.5);
   margin: 0 30px;
 }
-
 ul.skills {
   line-height: 2rem;
-  
 }
-
 ul.skills li {
-  list-style-type: circle;
-  
+  list-style-type: circle;  
 }
-
 footer {
   font-size: 48px;
   position: relative;
@@ -191,19 +166,15 @@ footer {
   justify-content: center;
   padding: 1em;
 }
-
-
 footer a {
   color: var(--light);
   opacity: .5;
   margin: 10px 20px;
   transition: all .3s ease-in-out;
 }
-
 footer a:hover {
   opacity: 1;
 }
-
 textarea {
   width: 600px;
   height: 200px;
@@ -211,24 +182,19 @@ textarea {
   padding: 5px;
   margin-top: 10px;
 }
-
 .flex-row {
   display: flex; 
   flex-wrap: wrap; 
 }
-
 .space-between {
   justify-content: space-between;
 }
-
 .flex-end {
   justify-content: flex-end;
 }
-
 .flex-center {
   justify-content: center;
 }
-
 .px-1 {
   padding-right: var(--spacing-one);
   padding-left: var(--spacing-one);
@@ -246,8 +212,6 @@ textarea {
   height: 100%;
   border-radius: 15px;
 }   */
-
-
 /* .project-text {
   font-family: 'Trebuchet MS', sans-serif;
   color: var(--light);
@@ -274,24 +238,20 @@ textarea {
   font-size: 2.5rem;
 }
  */
-
 .project-text a {
   text-decoration: none;
   color: var(--light);
   transition: all .3s ease-in-out;
 }
-
 .project-text a:hover {
   border-radius: 25px;
   color: var(--darker);
 }
-
 .navActive {
   color: var(--primary);
   cursor: default;
   text-shadow: 3px 3px 15px rgba(255,255,255, .5);
 }
-
 .my-5 {
   margin-top: var(--spacing-five);
   margin-bottom: var(--spacing-five);

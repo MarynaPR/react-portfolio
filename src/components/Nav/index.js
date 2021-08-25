@@ -17,7 +17,7 @@ function Nav(props) {
 
     return (
         // <Container>
-        <nav>
+        <nav style={{ padding: "30px", borderBottomStyle: "solid", color: "rgb(224, 9, 63)" }}>
             <ul className="flex-row">
                 {pages.map((Main) => (
                     <li className={` ${currentPage.name === Main.name && 'navActive'}`} key={Main.name}>

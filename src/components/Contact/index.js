@@ -32,10 +32,12 @@ function Contact() {
         }
     };
     return (
-        <Container fluid="md">
+        <Container fluid="md" style={{alignSelf: "center"}}>
+            <h6>get in touch</h6>
             <br></br>
-            <h4>let's work together</h4>
-            <Form id="contact-form" onSubmit={handleSubmit}>
+            <Form id="contact-form"
+            style={{alignSelf: "center"}}
+            onSubmit={handleSubmit} >
                 <div>
                     <label htmlFor="name">name:</label>
                     <input type="text" defaultValue={name} onBlur={handleChange} name="name" />

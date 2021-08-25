@@ -2,26 +2,26 @@ import PropTypes from 'prop-types';
 
 export const person = {
     about: {
-        name: 'hi  *  welcome to my portfolio  *  ',
+        name: "hi  *  it's nice to meet you  *  a bit about me  * ",
         email: 'pryadkamaryna@gmail.com',
         website: 'https://marynapr.github.io/react-portfolio/',
-        summary: ' * born in cold Siberian region  *  reside in slightly warmer Midwest  *  full stack web developer  *  passionate about sustainability and diversity  * looking to bring my attention to detail, analytical and technical skills to your organization to grow and become a avaluable asset  *  equipped with skills to adapt quickly and find creative and elegant solutions to problems *   '
+        summary: '   ·   born in cold Siberian region   ·   reside in slightly warmer Midwest   ·   citizen of Earth   ·   full stack web developer   ·  ardent learner   ·    sustainability student   ·    unconditional advocate for kindness   ·   unconventional maker of positive changes   ·   equipped with analytical & technical skills + attention to details =>  to adapt quickly and find clever and elegant solutions  ·   '
     },
     work: [
         {
             company: '3ofaKin',
-            position: 'Co-founder',
-            startDate: '2018-01-01',
+            position: 'co-founder',
+            startDate: '2018',
             endDate: 'present',
-            summary: 'Launched and co-developed a zero-waste skin care brand with an emphasis on plant-based ingredients and biodegradable packaging. Key Accomplishments: ',
+            summary: 'launched and co-developed a zero-waste skin care brand with an emphasis on plant-based ingredients and biodegradable packaging ',
             // highlights: [' ● Pioneered the implementation and research of sustainable strategies by prioritizing partnering with l ocal farms and other businesses to promote the growth of communities', ' ● Established emerging financial strategies, resource allocation, and production methods to arrange the financial flow and budget from existing business to ensure loan-free start up', '● Demonstrate strong businessacumenby identifying priorities and effectively executing projects, accordingly, monitoring cost effectiveness of operations by initiating effective sustainable practices and reducing waste and operational cost annually by 15 percent'],
         },
         {
-            company: 'Velvet Waxing Studio',
-            position: 'Co-founder',
-            startDate: '2011-01-01',
+            company: 'velvet waxing studio',
+            position: 'co-founder',
+            startDate: '2011',
             endDate: 'present',
-            summary: 'Participated in all facets of business development, including the launching, planning, and strategizing of a business model of the premier waxing studio in Madison,WI. Key Accomplishments:',
+            summary: 'participated in all facets of business development, including the launching, planning, and strategizing of a business model of the premier waxing studio in Madison,WI',
             // highlights: ['● Manage customer relationship to i nfluence and i mprove customer service rating', '● Use creativity and problem-solving skills to monitor financial activity, set sale projections, identify risks, make conclusions based on profits, and find resourceful ways to maintain and increase the company’s budget'],
         },
     ],
@@ -51,8 +51,8 @@ export const person = {
         },
         {
             institution: 'University of Wisconsin',
-            area: 'masters in sustainable management',
-            studyType: 'masters in sustainable management',
+            area: 'Masters in Sustainable Management',
+            studyType: 'Masters in Sustainable Management',
             startDate: '2021',
             endDate: '2024',
         },

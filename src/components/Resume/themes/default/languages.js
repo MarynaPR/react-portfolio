@@ -3,7 +3,7 @@ import React from 'react';
 import shortid from 'shortid';
 
 import { CardHighlights } from './generic';
-import { bold, c, color, colors, emOneTwo, emTwo } from './styles';
+import { bold, c, color, colors, emOneTwo, emOneThree } from './styles';
 import { languagesType } from '../../person';
 
 const Languages = ({ languages }) => {
@@ -14,7 +14,7 @@ const Languages = ({ languages }) => {
                     color={colors.red}
                     key={shortid.generate()}
                     title={
-                        <span style={c(emTwo, bold, color(colors.grey))}>
+                        <span style={c(emOneThree, bold, color(colors.grey))}>
                             <Icon name="globe" />{j.name}
                         </span>
                     }

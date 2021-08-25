@@ -11,13 +11,14 @@ function App() {
   const [pages] = useState([
     { name: ".()resume" },
     { name: ".()portfolio" },
+    {name: ".()blog"},
     { name: ".()contact" },
   ]);
   const [currentPage, setCurrentPage] = useState(pages[0]);
 
   return (
 
-    <div style={{ backgroundColor: new Date().getHours() > 17 ? "#55565e" : "white" }}>
+    <div style={{ backgroundColor: new Date().getHours() > 20 ? "#55565e" : "white" }}>
       <div>
         <Container>
           <div id="image">
